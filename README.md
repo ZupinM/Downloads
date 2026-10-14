@@ -18,6 +18,7 @@ Latest builds of the Helios service software for SAT CONTROL positioners and sol
 | Nano firmware | [nano_fw.bin](https://github.com/ZupinM/Downloads/raw/main/Nano/nano_fw.bin) | 3053 | 2026-10-14 | 389d125 |
 | NanoD firmware | [nanod_fw.bin](https://github.com/ZupinM/Downloads/raw/main/NanoD/nanod_fw.bin) | 6046 | 2026-10-14 | dfcab31 |
 | SigmaG bootloader | [sigma_bw.bin](https://github.com/ZupinM/Downloads/raw/main/SigmaG/sigma_bw.bin) | 1015 | 2026-10-14 | 64a6075 |
+| Sigma bootloader | [sigma_bw.bin](https://github.com/ZupinM/Downloads/raw/main/Sigma/sigma_bw.bin) | 1015 | 2026-10-14 | 16afd88 |
 
 **Helios Analytics** runs on Windows 7, 10 and 11 (.NET Framework 4.0). Unzip and start `HeliosAnalytics.exe`.
 
