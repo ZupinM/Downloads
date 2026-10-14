@@ -29,10 +29,11 @@ $name = Split-Path $File -Leaf
 $url = "https://github.com/ZupinM/Downloads/raw/main/$File"
 $row = "| $Project | [$name]($url) | $Version | $date | $hash |"
 
-# replace (or append) this project's row in the README table
+# replace (or append) this file's row in the README tables; rows are matched by download link,
+# so the same project name may appear in both the firmware and the bootloader table
 $readme = Join-Path $root 'README.md'
 $lines = @(Get-Content $readme)
-$pattern = '^\| ' + [regex]::Escape($Project) + ' \|'
+$pattern = '^\|.*\]\(' + [regex]::Escape($url) + '\)'
 if ($lines -match $pattern) {
     $lines = $lines | ForEach-Object { if ($_ -match $pattern) { $row } else { $_ } }
 } else {
