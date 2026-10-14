@@ -9,6 +9,7 @@ Latest builds of the Helios service software for SAT CONTROL positioners and sol
 | PICO-G firmware | [picog_fw.bin](https://github.com/ZupinM/Downloads/raw/main/PicoG/picog_fw.bin) | 2027 | 2026-10-14 | c1e167a |
 | Micro firmware | [micro_fw.bin](https://github.com/ZupinM/Downloads/raw/main/Micro/micro_fw.bin) | 8058 | 2026-10-14 | 739da8b |
 | Converter firmware | [zb2rs_fw.bin](https://github.com/ZupinM/Downloads/raw/main/Converter/zb2rs_fw.bin) | 7037 | 2026-10-14 | 6a7fbef |
+| Sigma firmware | [mware.bin](https://github.com/ZupinM/Downloads/raw/main/Sigma/mware.bin) | 1398 | 2026-10-14 | 16afd88 |
 
 **Helios Analytics** runs on Windows 7, 10 and 11 (.NET Framework 4.0). Unzip and start `HeliosAnalytics.exe`.
 
