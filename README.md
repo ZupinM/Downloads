@@ -13,6 +13,7 @@ Latest builds of the Helios service software for SAT CONTROL positioners and sol
 | Sigma firmware (LoRa) | [mware.bin](https://github.com/ZupinM/Downloads/raw/main/Sigma/LoRa/mware.bin) | 1398 | 2026-10-14 | 16afd88 |
 | Sigma firmware (RS485) | [mware.bin](https://github.com/ZupinM/Downloads/raw/main/Sigma/RS485/mware.bin) | 1398 | 2026-10-14 | 16afd88 |
 | Micro bootloader | [micro_bw.bin](https://github.com/ZupinM/Downloads/raw/main/Micro/micro_bw.bin) | 8008 | 2026-10-14 | fd77018 |
+| PICO-G bootloader | [picog_bw.bin](https://github.com/ZupinM/Downloads/raw/main/PicoG/picog_bw.bin) | 5005 | 2026-10-14 | bac8211 |
 
 **Helios Analytics** runs on Windows 7, 10 and 11 (.NET Framework 4.0). Unzip and start `HeliosAnalytics.exe`.
 
