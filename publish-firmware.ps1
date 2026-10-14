@@ -10,7 +10,8 @@ param(
     [Parameter(Mandatory)][string]$SourceRepo,
     [string[]]$ShareFolders = @(),     # subfolders of \\St1\hfs\SIG_FW\SIG_TRA that ship this firmware
     [string]$Generator = 'generator.bat',   # generator script name inside BuildDir
-    [string]$BackupPrefix = 'v'        # backup folder name prefix: v<version> firmware, b<version> bootloader
+    [string]$BackupPrefix = 'v',       # backup folder name prefix: v<version> firmware, b<version> bootloader
+    [string]$Version                   # override when the generated .ini does not carry the real version
 )
 $ErrorActionPreference = 'Stop'
 $downloads = $PSScriptRoot
@@ -26,7 +27,7 @@ try {
     if ($LASTEXITCODE -or -not (Test-Path "$Name.ini")) { throw "$Generator failed in $BuildDir" }
 } finally { Pop-Location }
 
-$version = [regex]::Match((Get-Content "$BuildDir\$Name.ini" -Raw), 'version=(\d+)').Groups[1].Value
+$version = if ($Version) { $Version } else { [regex]::Match((Get-Content "$BuildDir\$Name.ini" -Raw), 'version=(\d+)').Groups[1].Value }
 if (-not $version) { throw "version not found in $Name.ini" }
 
 # St1 share: live copy in the folder, archived copy in backup\v<version>
