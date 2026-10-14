@@ -16,6 +16,7 @@ Latest builds of the Helios service software for SAT CONTROL positioners and sol
 | PICO-G bootloader | [picog_bw.bin](https://github.com/ZupinM/Downloads/raw/main/PicoG/picog_bw.bin) | 5005 | 2026-10-14 | bac8211 |
 | Converter bootloader | [zb2rs_bw.bin](https://github.com/ZupinM/Downloads/raw/main/Converter/zb2rs_bw.bin) | 7 | 2026-10-14 | 09826f5 |
 | Nano firmware | [nano_fw.bin](https://github.com/ZupinM/Downloads/raw/main/Nano/nano_fw.bin) | 3053 | 2026-10-14 | 389d125 |
+| NanoD firmware | [nanod_fw.bin](https://github.com/ZupinM/Downloads/raw/main/NanoD/nanod_fw.bin) | 6046 | 2026-10-14 | dfcab31 |
 
 **Helios Analytics** runs on Windows 7, 10 and 11 (.NET Framework 4.0). Unzip and start `HeliosAnalytics.exe`.
 
