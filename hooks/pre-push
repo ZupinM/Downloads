@@ -2,10 +2,11 @@
 # push all tags alongside every push (--no-verify keeps this hook from re-triggering itself)
 remote="${1:-origin}"
 git push --no-verify --tags "$remote" || echo "pre-push: tag push to $remote failed (branch push continues)" >&2
-# publish the latest binary to the Downloads repo when this repo has a publish.ps1 (main/master only)
-branch=$(git rev-parse --abbrev-ref HEAD)
-if [ -f publish.ps1 ] && { [ "$branch" = main ] || [ "$branch" = master ]; }; then
-    powershell.exe -NoProfile -ExecutionPolicy Bypass -File publish.ps1 </dev/null \
+# publish the latest binary to the Downloads repo when this repo has a publish.ps1
+# (the script itself decides which branch it publishes from)
+if [ -f publish.ps1 ]; then
+    powershell.exe -NoProfile -NonInteractive -ExecutionPolicy Bypass -File publish.ps1 \
+        -Branch "$(git rev-parse --abbrev-ref HEAD)" </dev/null \
         || echo "pre-push: publish.ps1 failed, binary in Downloads NOT updated (push continues)" >&2
 fi
 exit 0
