@@ -1,4 +1,4 @@
-# SAT CONTROL software downloads
+﻿# SAT CONTROL software downloads
 
 Latest builds of the Helios service software for SAT CONTROL positioners and solar trackers.
 
