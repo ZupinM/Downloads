@@ -11,7 +11,7 @@ Latest builds of the Helios service software and firmware for SAT CONTROL positi
 | SigmaG | [mware.bin](https://github.com/ZupinM/Downloads/raw/main/SigmaG/mware.bin) | 1398 | 2026-10-14 | 64a6075 |
 | Sigma (LoRa) | [mware.bin](https://github.com/ZupinM/Downloads/raw/main/Sigma/LoRa/mware.bin) | 1398 | 2026-10-14 | 16afd88 |
 | Sigma (RS485) | [mware.bin](https://github.com/ZupinM/Downloads/raw/main/Sigma/RS485/mware.bin) | 1398 | 2026-10-14 | 16afd88 |
-| PicoG | [picog_fw.bin](https://github.com/ZupinM/Downloads/raw/main/PicoG/picog_fw.bin) | 2027 | 2026-10-14 | c1e167a |
+| PicoG | [picog_fw.bin](https://github.com/ZupinM/Downloads/raw/main/PicoG/picog_fw.bin) | 2028 | 2026-10-26 | 944137a |
 | Micro-F | [micro_fw.bin](https://github.com/ZupinM/Downloads/raw/main/Micro/micro_fw.bin) | 8058 | 2026-10-14 | 739da8b |
 | Converter | [zb2rs_fw.bin](https://github.com/ZupinM/Downloads/raw/main/Converter/zb2rs_fw.bin) | 7037 | 2026-10-14 | 6a7fbef |
 | NanoD | [nanod_fw.bin](https://github.com/ZupinM/Downloads/raw/main/NanoD/nanod_fw.bin) | 6046 | 2026-10-14 | dfcab31 |
