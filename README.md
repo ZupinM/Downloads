@@ -9,7 +9,7 @@ Latest builds of the Helios service software and firmware for SAT CONTROL positi
 | Helios Analytics | [HeliosAnalytics2.zip](https://github.com/ZupinM/Downloads/raw/main/Helios/HeliosAnalytics2.zip) | 2.0.32 | 2026-10-14 | 971a9d1 |
 | Helios Mobile | [HeliosMobile.apk](https://github.com/ZupinM/Downloads/raw/main/HeliosMobile/HeliosMobile.apk) | 1.0 | 2026-10-14 | 65f3e89 |
 | SigmaG | [mware.bin](https://github.com/ZupinM/Downloads/raw/main/SigmaG/mware.bin) | 1398 | 2026-10-14 | 64a6075 |
-| Sigma (LoRa) | [mware.bin](https://github.com/ZupinM/Downloads/raw/main/Sigma/LoRa/mware.bin) | 1398 | 2026-10-14 | 16afd88 |
+| Sigma (LoRa) | [mware.bin](https://github.com/ZupinM/Downloads/raw/main/Sigma/LoRa/mware.bin) | 1399 | 2026-11-06 | e001497 |
 | Sigma (RS485) | [mware.bin](https://github.com/ZupinM/Downloads/raw/main/Sigma/RS485/mware.bin) | 1398 | 2026-10-14 | 16afd88 |
 | PicoG | [picog_fw.bin](https://github.com/ZupinM/Downloads/raw/main/PicoG/picog_fw.bin) | 2028 | 2026-10-27 | 944137a |
 | Micro-F | [micro_fw.bin](https://github.com/ZupinM/Downloads/raw/main/Micro/micro_fw.bin) | 8058 | 2026-10-14 | 739da8b |
