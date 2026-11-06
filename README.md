@@ -22,7 +22,7 @@ Latest builds of the Helios service software and firmware for SAT CONTROL positi
 | Project | Download | Version | Built | Source |
 |---|---|---|---|---|
 | SigmaG | [sigma_bw.bin](https://github.com/ZupinM/Downloads/raw/main/SigmaG/sigma_bw.bin) | 1015 | 2026-10-14 | 64a6075 |
-| Sigma | [sigma_bw.bin](https://github.com/ZupinM/Downloads/raw/main/Sigma/sigma_bw.bin) | 1015 | 2026-10-14 | 16afd88 |
+| Sigma | [sigma_bw.bin](https://github.com/ZupinM/Downloads/raw/main/Sigma/sigma_bw.bin) | 1015 | 2026-11-06 | e001497 |
 | PicoG | [picog_bw.bin](https://github.com/ZupinM/Downloads/raw/main/PicoG/picog_bw.bin) | 2004 | 2026-07-13 | - |
 | Micro-F | [micro_bw.bin](https://github.com/ZupinM/Downloads/raw/main/Micro/micro_bw.bin) | 8008 | 2026-10-14 | fd77018 |
 | Converter | [zb2rs_bw.bin](https://github.com/ZupinM/Downloads/raw/main/Converter/zb2rs_bw.bin) | 7010 | 2026-10-14 | 09826f5 |
