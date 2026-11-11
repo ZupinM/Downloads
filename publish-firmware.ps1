@@ -29,6 +29,13 @@ try {
 
 $version = if ($Version) { $Version } else { [regex]::Match((Get-Content "$BuildDir\$Name.ini" -Raw), 'version=(\d+)').Groups[1].Value }
 if (-not $version) { throw "version not found in $Name.ini" }
+# the published .ini carries the version the release is filed under (Helios compares it with the device)
+if ($Version) {
+    $ini = Get-Content "$BuildDir\$Name.ini" -Raw
+    if ($ini -notmatch "(?m)^version=$Version\s*$") {
+        Set-Content "$BuildDir\$Name.ini" ($ini -replace '(?m)^version=\d+', "version=$Version") -NoNewline
+    }
+}
 
 # St1 share: live copy in the folder, archived copy in backup\v<version>
 foreach ($f in $ShareFolders) {
