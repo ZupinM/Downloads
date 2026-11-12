@@ -13,7 +13,7 @@ Latest builds of the Helios service software and firmware for SAT CONTROL positi
 | Sigma (RS485) | [mware.bin](https://github.com/ZupinM/Downloads/raw/main/Sigma/RS485/mware.bin) | 1399 | 2026-11-06 | e001497 |
 | PicoG | [picog_fw.bin](https://github.com/ZupinM/Downloads/raw/main/PicoG/picog_fw.bin) | 2028 | 2026-10-27 | 944137a |
 | Micro-F | [micro_fw.bin](https://github.com/ZupinM/Downloads/raw/main/Micro/micro_fw.bin) | 8059 | 2026-11-11 | 36c79d8 |
-| Converter | [zb2rs_fw.bin](https://github.com/ZupinM/Downloads/raw/main/Converter/zb2rs_fw.bin) | 7037 | 2026-10-14 | 6a7fbef |
+| Converter | [zb2rs_fw.bin](https://github.com/ZupinM/Downloads/raw/main/Converter/zb2rs_fw.bin) | 7038 | 2026-11-12 | 4e3e70d |
 | NanoD | [nanod_fw.bin](https://github.com/ZupinM/Downloads/raw/main/NanoD/nanod_fw.bin) | 6046 | 2026-10-14 | dfcab31 |
 | Nano | [nano_fw.bin](https://github.com/ZupinM/Downloads/raw/main/Nano/nano_fw.bin) | 3053 | 2026-10-14 | 389d125 |
 
