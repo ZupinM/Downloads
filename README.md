@@ -7,7 +7,7 @@ Latest builds of the Helios service software and firmware for SAT CONTROL positi
 | Project | Download | Version | Built | Source |
 |---|---|---|---|---|
 | Helios Analytics | [HeliosAnalytics2.zip](https://github.com/ZupinM/Downloads/raw/main/Helios/HeliosAnalytics2.zip) | 2.0.34 | 2026-11-12 | 47d060c |
-| Helios Mobile | [HeliosMobile.apk](https://github.com/ZupinM/Downloads/raw/main/HeliosMobile/HeliosMobile.apk) | 1.1 | 2026-11-12 | 95c0216 |
+| Helios Mobile | [HeliosMobile.apk](https://github.com/ZupinM/Downloads/raw/main/HeliosMobile/HeliosMobile.apk) | 1.2 | 2026-11-12 | 95c0216 |
 | SigmaG | [mware.bin](https://github.com/ZupinM/Downloads/raw/main/SigmaG/mware.bin) | 1399 | 2026-11-06 | c1930b0 |
 | Sigma (LoRa) | [mware.bin](https://github.com/ZupinM/Downloads/raw/main/Sigma/LoRa/mware.bin) | 1399 | 2026-11-06 | e001497 |
 | Sigma (RS485) | [mware.bin](https://github.com/ZupinM/Downloads/raw/main/Sigma/RS485/mware.bin) | 1399 | 2026-11-06 | e001497 |
